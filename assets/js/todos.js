@@ -20,5 +20,5 @@ $("input[type='text']").keypress(function(event){
 });
 
 $("#todoToggle").click(function(){
-  console.log("it works");
+  $("input[type='text']").fadeToggle();
 });
